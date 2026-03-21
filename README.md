@@ -60,7 +60,7 @@ todo-list-manager-node
 
 1. Clonare il repository
 
-git clone https://github.com/Barbagallo2296/todo-list-manager-node.git
+git clone https://github.com/Barbagallo2296/todo-list-app.git
 
 2. Installare le dipendenze
 
