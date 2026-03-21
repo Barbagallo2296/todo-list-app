@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <title>TODO List</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1><img src="./css/hat.png" alt="cappello di paglia" width="100px"> TODO List</h1>
+    </header>
+
+    <main>
+
+      <!-- CREA LISTA -->
+      <section class="liste">
+        <h2>Crea una nuova lista</h2>
+        <input type="text" id="list-id" placeholder="Titolo">
+        <input type="text" id="description-input" placeholder="Descrizione">
+        <span id="create-list" class="icon2">➕</span>
+      </section>
+
+      <!-- LISTE -->
+      <section class="liste">
+        <h2>Liste</h2>
+        <button id="get-lists">Mostra Liste</button>
+        <div id="get-lists-result"></div>
+      </section>
+
+      <!-- TASKS -->
+      <section class="liste">
+        <h2>Tasks</h2>
+        <input id="task-input" placeholder="Nuova task">
+        <span id="add-task" class="icon2">➕</span>
+        <div id="tasks-container"></div>
+      </section>
+
+    </main>
+
+  </div>
+
+  <script src="api.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>

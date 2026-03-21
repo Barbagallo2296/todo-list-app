@@ -1,0 +1,154 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(228, 228, 228);
+  margin: 40px;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* BOTTONI */
+button {
+  padding: 6px 12px;
+  margin: 3px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+  background-color: #1d4ed8;
+}
+
+.delete-Btn,.update-Btn, .edit-Btn, .view-Btn, .save-Btn, .toggle-Btn, #create-list, #add-task{
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+#create-list:hover, #add-task:hover {
+  background: rgba(28, 255, 111, 0.12);
+}
+
+.icon2 {
+  font-size: 20px;
+}
+
+.delete-Btn:hover {
+  box-shadow: 0 0 8px rgba(246, 3, 3, 0.6);
+}
+
+.update-Btn:hover,
+.edit-Btn:hover {
+  background-color: #f59e0b;
+  box-shadow: 0 0 8px rgba(245,158,11,0.4);
+}
+
+.view-Btn:hover,
+.save-Btn:hover {
+  background-color: #22c55e;
+  box-shadow: 0 0 8px rgba(34,197,94,0.4);
+}
+
+.toggle-Btn:hover {
+  color: #22c55e;
+  background: rgba(34,197,94,0.12);
+}
+
+.icon {
+  padding: 5px;
+  gap: 5px;
+  font-size: 20px;
+}
+/* INPUT */
+
+input {
+  padding: 7px;
+  margin: 4px;
+  border-radius: 6px;
+  border: 1px solid #969a9f;
+}
+input:focus {
+  outline: none;
+  border: 1px solid #2563eb;
+  box-shadow: 0 0 6px rgba(37,99,235,0.3);
+}
+input:hover {
+  background-color: #d8dadd;
+}
+/* Liste */
+
+.liste {
+  background: #ffffff;
+  padding: 22px;
+  margin-top: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: 0.2s;
+}
+
+
+/* TABELLA */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  padding: 12px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: center;
+}
+
+th {
+  background-color: #0862f3;
+  color: rgb(255, 255, 255);
+}
+
+/* HOVER RIGHE */
+
+.trlist:hover {
+  background-color: #dbdde2;
+}
+
+/* STATO TASK */
+
+.Done {
+  color: green;
+  font-weight: bold;
+}
+
+.Todo {
+  color: red;
+  font-weight: bold;
+}
+
+/* TASK CONTAINER */
+
+#tasks-container {
+  margin-top: 20px;
+}
+
+/* Immagine */
+img {
+  position: relative;
+  top: 10px;
+}
+img:hover {
+  transform: rotate(-10deg);
+}
