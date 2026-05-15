@@ -37,24 +37,6 @@ Ogni lista può contenere più tasks, e ogni task ha uno stato:
 * Eliminare un task
 * Cambiare lo stato tra `todo` e `done`
 
-## Struttura del progetto
-
-todo-list-manager-node
-│
-├── backend
-│   ├── server.js
-│   └── db.js
-│
-├── frontend
-│   ├── index.html
-│   ├── main.js
-│   ├── api.js
-│   └── css
-│       └── style.css
-│
-└── database
-└── app.sqlite
-
 
 ## Avvio del progetto
 
@@ -73,4 +55,4 @@ npn run dev
 ## Autore
 
 Manuel Barbagallo
-Progetto realizzato per il corso di Full Stack Developer ITS Prodogi 
+Progetto realizzato per il corso di Full Stack Developer ITS Prodigi 
