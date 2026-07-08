@@ -6,11 +6,11 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-// Accettiamo sia "localhost" che "127.0.0.1" per evitare falsi blocchi CORS,
-// dato che alcuni tool (es. live-server) possono usare l'uno o l'altro.
 const allowedOrigins = [
   process.env.FRONTEND_URL || "http://localhost:5173",
-  "http://127.0.0.1:5173"
+  "http://127.0.0.1:5173",
+  "http://localhost:5174",
+  "http://127.0.0.1:5174"
 ];
 
 app.use(cors({
